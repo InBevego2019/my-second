@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {TextField,Grid} from '@material-ui';
+import {TextField,Grid} from '@material-ui/core';
 
 
 export default function Colonna() {

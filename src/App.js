@@ -1,20 +1,10 @@
 import 'date-fns';
 import React from 'react';
-import {InputLabel,Paper,MenuItem,FormControl,Select,AddIcon,Fab,Button,EditIcon,FavoriteIcon,NavigationIcon,TextField} from '@material-ui';
+import {Fab,Button} from '@material-ui/core';
+import {Add} from '@material-ui/icons';
 import './App.css';
-import {makeStyles} from '@material-ui';
-import DateFnsUtils from '@date-io/date-fns';
 import Colonna from './new' ;
 import DateAndTime from './Date';
-
-
-
-import {
-    MuiPickersUtilsProvider,
-    KeyboardTimePicker,
-    KeyboardDatePicker,
-} from '@material-ui/pickers';
-
 
 function App() {
     return (
@@ -33,7 +23,7 @@ function App() {
             <Colonna/>
             <Button class="" color="primary">Submit</Button>
             <Fab className="" color="primary" aria-label="add">
-                <AddIcon/>
+                <Add/>
             </Fab>
             <DateAndTime/>
             </div>
